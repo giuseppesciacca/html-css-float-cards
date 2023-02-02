@@ -11,33 +11,49 @@ body {
 
 /* HEADER */
 
-.container{
-    width: 90%;
+.container {
+    width: 80%;
     margin: auto;
 }
 
-header h1{
+header h1 {
     color: #e53170;
     text-align: center;
     margin: 2rem 0;
 }
 
 /* MAIN */
-main > p:first-of-type{
+main>p:first-of-type {
     text-align: center;
 }
 
-
-
-/* DEBUG */
-.debug{
+/* card settings */
+.card {
     background-color: #0f0e17;
     color: white;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2rem);
     float: left;
+    margin: 2rem 1rem;
+    box-shadow: 0 0 10px black
 }
 
-.debug img{
+::after.clearfloat{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card img {
     float: left;
-    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.card a {
+    color: #1ac4ec;
+    text-decoration: none;
+}
+
+.user_info{
+    margin: 1rem;
 }
