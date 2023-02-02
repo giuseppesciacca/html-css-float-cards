@@ -12,7 +12,6 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    min-width: 1270px;
 }
 
 /* HEADER */
@@ -40,10 +39,9 @@ main>p:first-of-type {
     float: left;
     margin: 2rem 1rem;
     box-shadow: 0 0 10px black;
-    height: 100px;
 }
 
-::after.clearfloat{
+::after.clearfix{
     content: "";
     clear: both;
     display: table;
@@ -51,8 +49,8 @@ main>p:first-of-type {
 
 .card img {
     float: left;
-    height: 100%;
     margin-right: 1rem;
+    height: 100px;
 }
 
 .card .email {
