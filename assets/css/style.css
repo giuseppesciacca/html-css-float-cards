@@ -1,4 +1,4 @@
-/* GENERAL SETTINGS */
+/* #region GENERAL SETTINGS */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,16 +13,16 @@ body {
     width: 80%;
     margin: auto;
 }
+/* #endregion GENERAL SETTINGS */
 
-/* HEADER */
-
+/* #region HEADER */
 header h1 {
     color: #e53170;
     text-align: center;
     margin: 2rem 0;
 }
 
-/* MAIN */
+/* #region MAIN */
 main>p:first-of-type {
     text-align: center;
 }
@@ -41,7 +41,7 @@ main>p:first-of-type {
     box-shadow: 0 0 10px black;
 }
 
-::after.clearfix{
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
@@ -57,3 +57,4 @@ main>p:first-of-type {
     color: #1ac4ec;
     text-decoration: none;
 }
+/* #endregion MAIN */
